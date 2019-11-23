@@ -24,10 +24,11 @@ public class ReverseList
 
 	    int index = 0;
 	    //insert names
+				System.out.println ("Enter the items: ");
+
 	    for (int plusName = 0 ; plusName < count ; plusName++)
 
 		{
-		    System.out.println ("Enter the items: ");
 
 			    names [plusName] = (kbInput.readLine ());
 		}
